@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom, #5B5858, #494747,#3F3D3D,#1E1D1D);
+    background-repeat: no-repeat;
+}
+
+.navbar-brand{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover{
+    color: #fff !important;
+}
+
+.nav-item{
+    margin-left: 35px !important;
+}
+
+.nav-item:first-child{
+    margin-left: 0px !important;
+}
+
+.page{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.3s;
+    position: relative;
+}
+
+.page::after{
+	position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: #C4BE20;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	transition: 0.3s;
+}
+
+.page:hover{
+	color: #C4BE20 !important;
+}
+
+.page:hover::after{
+	width: 60px;
+}
+
+
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    background-color: #FDF8F2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: transparent;
+    
+}
+
+/* banner start  */
+
+.banner{
+    padding: 60px 0;
+}
+.banner h1{
+    font-weight: 500;
+    font-size: 90px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+/* banner end  */
+
+/* Feature Projects start */
+
+.project{
+    padding: 80px 0;
+}
+
+.sec-title{
+    font-weight: 500;
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.single-project{
+    margin: 20px 20px;
+    background-color: #3B3939;
+    padding: 40px;
+    border-radius: 70px;
+    box-shadow: 0px 0px 7px 4px #2f2f2f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.single-project:hover{
+    box-shadow: 0px 0px 7px 8px #2f2f2f;
+}
+
+.single-project h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.single-project p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ddd;
+}
+
+.single-project a{
+    text-decoration: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C4BE20;
+    transition: 0.3s;
+}
+
+.single-project a:hover{
+    color: #fff;
+}
+
+.see-project{
+    position: relative;
+}
+
+.see-project::after{
+	position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: #C4BE20;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	transition: 0.3s;
+}
+
+.see-project:hover::after{
+	width: 60px;
+}
+
+/* Feature Projects end  */
+
+/* Skill start  */
+.skill{
+    padding: 80px 0;
+}
+
+.single-skill{
+    padding: 0 40px;
+}
+.single-skill h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.single-skill p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ddd;
+}
+
+.progress-bar{
+    background-color: #C4BE20 !important;
+}
+
+/* Skill end  */
+
+/* COmmission start  */
+
+.commission{
+    padding: 80px 0;
+}
+
+.single-commission h2{
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+}
+
+.single-commission p{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(163, 163, 163);
+}
+
+.single-commission p span{
+    color: #C4BE20;
+}
+
+/* COmmission end  */
+
+/* Social and contact start  */
+.social{
+    padding: 80px 0;
+}
+
+.single-social{
+    margin: 15px 0;
+    background-color: #3B3939;
+    border-radius: 40px;
+    padding: 12px 0px 10px 35px;
+    box-shadow: 5px 5px 20px -1px #101010;
+    transition: 0.3s;
+}
+
+.single-social:hover{
+    transform: scale(1.05);
+}
+
+.single-social a{
+    text-decoration: none;
+}
+
+.single-social p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.discord-img{
+    height: 35px;
+}
+
+.stack-img{
+    height: 35px;
+}
+
+.email-img{
+    height: 35px;
+}   
+
+.github-img{
+    height: 35px;
+}   
+
+
+/* Social and contact end  */
+
+/* Contact start  */
+.contact{
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.form-wrapper{
+    background-color: #3B3939;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    width: 80%;
+}
+
+input:focus{
+    border: 0;
+    outline: 0;
+}
+
+.form-control:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+textarea{
+    color: #fff !important;
+    resize: none;
+} 
+
+.submit-btn{
+    background-color: #201F1F !important;
+    width: 120px;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+/* Contact end  */
