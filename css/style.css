@@ -86,6 +86,79 @@ body{
 }
 /* banner end  */
 
+/* Reviews start */
+
+.review {
+    width: 100%;
+    height: 100%;
+}
+
+.single-review{
+    width: 70%;
+    height: fit-content;
+    margin: 20px 20px;
+    background-color: #3B3939;
+    padding: 20px;
+    padding-bottom: 3px;
+    border-radius: 70px;
+    box-shadow: 0px 0px 7px 4px #2f2f2f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 992px)  {
+    .single-review{
+        width: 95%;
+        height: 40vh;
+    }
+
+}
+
+.single-review:hover{
+    box-shadow: 0px 0px 7px 8px #2f2f2f;
+}
+
+.single-review h2{
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.single-review p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+.single-review {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+}
+
+.review-txt {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.author {
+    margin-top: auto;
+}
+
+.single-review a{
+    text-decoration: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+/* Reviews end */
+
 /* Feature Projects start */
 
 .project{
