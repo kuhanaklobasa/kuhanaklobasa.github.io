@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to bottom, #5B5858, #494747,#3F3D3D,#1E1D1D);
+    background-image: linear-gradient(to bottom, #5B5858, #494747, #3F3D3D, #1E1D1D);
     background-repeat: no-repeat;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: #fff !important;
 }
 
-.nav-item{
+.nav-item {
     margin-left: 35px !important;
 }
 
-.nav-item:first-child{
+.nav-item:first-child {
     margin-left: 0px !important;
 }
 
-.page{
+.page {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
@@ -34,8 +34,8 @@ body{
     position: relative;
 }
 
-.page::after{
-	position: absolute;
+.page::after {
+    position: absolute;
     content: '';
     width: 0px;
     height: 2px;
@@ -44,15 +44,15 @@ body{
     left: 0;
     right: 0;
     margin: 0 auto;
-	transition: 0.3s;
+    transition: 0.3s;
 }
 
-.page:hover{
-	color: #C4BE20 !important;
+.page:hover {
+    color: #C4BE20 !important;
 }
 
-.page:hover::after{
-	width: 60px;
+.page:hover::after {
+    width: 60px;
 }
 
 
@@ -64,26 +64,29 @@ body{
     font-weight: 900;
     font-size: 22px;
     color: transparent;
-    
+
 }
 
 /* banner start  */
 
-.banner{
+.banner {
     padding: 60px 0;
 }
-.banner h1{
+
+.banner h1 {
     font-weight: 500;
     font-size: 90px;
     color: #fff;
     letter-spacing: 1px;
 }
-.banner p{
+
+.banner p {
     font-weight: 400;
     font-size: 22px;
     color: #fff;
     letter-spacing: 2px;
 }
+
 /* banner end  */
 
 /* Reviews start */
@@ -93,7 +96,7 @@ body{
     height: 100%;
 }
 
-.single-review{
+.single-review {
     width: 70%;
     height: fit-content;
     margin: 20px 20px;
@@ -106,19 +109,30 @@ body{
     cursor: pointer;
 }
 
-@media only screen and (min-width: 992px)  {
-    .single-review{
+@media only screen and (min-width: 992px) {
+    .single-review {
         width: 95%;
         height: 40vh;
     }
 
 }
 
-.single-review:hover{
+#less, #dots {
+    color: #C4BE20 !important;
+}
+
+.more {
+   display:none;
+}
+.less {
+    display: none;
+}
+
+.single-review:hover {
     box-shadow: 0px 0px 7px 8px #2f2f2f;
 }
 
-.single-review h2{
+.single-review h2 {
     text-align: center;
     margin-bottom: 2px;
     font-size: 22px;
@@ -126,7 +140,7 @@ body{
     color: #fff;
 }
 
-.single-review p{
+.single-review p {
     text-align: center;
     font-size: 15px;
     font-weight: 400;
@@ -135,9 +149,9 @@ body{
 }
 
 .single-review {
-    display:flex;
-    justify-content:space-between;
-    flex-direction:column;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .review-txt {
@@ -149,7 +163,7 @@ body{
     margin-top: auto;
 }
 
-.single-review a{
+.single-review a {
     text-decoration: none;
     text-align: right;
     font-size: 16px;
@@ -161,11 +175,11 @@ body{
 
 /* Feature Projects start */
 
-.project{
+.project {
     padding: 80px 0;
 }
 
-.sec-title{
+.sec-title {
     font-weight: 500;
     font-size: 44px;
     color: #fff;
@@ -173,7 +187,7 @@ body{
     margin-bottom: 80px;
 }
 
-.single-project{
+.single-project {
     width: 90%;
     height: fit-content;
     margin: 20px 20px;
@@ -185,17 +199,17 @@ body{
     cursor: pointer;
 }
 
-@media only screen and (min-width: 992px)  {
-    .single-project{
+@media only screen and (min-width: 992px) {
+    .single-project {
         height: 62vh;
     }
 }
 
-.single-project:hover{
+.single-project:hover {
     box-shadow: 0px 0px 7px 8px #2f2f2f;
 }
 
-.single-project h2{
+.single-project h2 {
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 22px;
@@ -203,13 +217,13 @@ body{
     color: #fff;
 }
 
-.single-project p{
+.single-project p {
     font-size: 17px;
     font-weight: 400;
     color: #ddd;
 }
 
-.single-project a{
+.single-project a {
     text-decoration: none;
     text-align: right;
     font-size: 16px;
@@ -218,16 +232,16 @@ body{
     transition: 0.3s;
 }
 
-.single-project a:hover{
+.single-project a:hover {
     color: #fff;
 }
 
-.see-project{
+.see-project {
     position: relative;
 }
 
-.see-project::after{
-	position: absolute;
+.see-project::after {
+    position: absolute;
     content: '';
     width: 0px;
     height: 2px;
@@ -236,24 +250,25 @@ body{
     left: 0;
     right: 0;
     margin: 0 auto;
-	transition: 0.3s;
+    transition: 0.3s;
 }
 
-.see-project:hover::after{
-	width: 60px;
+.see-project:hover::after {
+    width: 60px;
 }
 
 /* Feature Projects end  */
 
 /* Skill start  */
-.skill{
+.skill {
     padding: 80px 0;
 }
 
-.single-skill{
+.single-skill {
     padding: 0 40px;
 }
-.single-skill h2{
+
+.single-skill h2 {
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 24px;
@@ -261,14 +276,15 @@ body{
     color: #fff;
     letter-spacing: 2px;
 }
-.single-skill p{
+
+.single-skill p {
     margin-top: 10px;
     font-size: 18px;
     font-weight: 400;
     color: #ddd;
 }
 
-.progress-bar{
+.progress-bar {
     background-color: #C4BE20 !important;
 }
 
@@ -280,23 +296,23 @@ body{
 
 /* COmmission start  */
 
-.commission{
+.commission {
     padding: 80px 0;
 }
 
-.single-commission h2{
+.single-commission h2 {
     font-weight: 700;
     font-size: 28px;
     color: #fff;
 }
 
-.single-commission p{
+.single-commission p {
     font-weight: 500;
     font-size: 20px;
     color: rgb(163, 163, 163);
 }
 
-.single-commission span{
+.single-commission span {
     color: #C4BE20;
 }
 
@@ -307,12 +323,12 @@ body{
 /* Social and contact start  */
 
 
-  
-.social{
+
+.social {
     padding: 80px 0;
 }
 
-.single-social{
+.single-social {
     width: 90%;
     margin: 15px 0;
     background-color: #3B3939;
@@ -323,18 +339,18 @@ body{
 }
 
 
-.single-social:hover{
+.single-social:hover {
     transform: scale(1.05);
     border: 1px solid #C4BE20 !important;
     transition: 0.5s;
 }
 
 
-.single-social a{
+.single-social a {
     text-decoration: none;
 }
 
-.single-social p{
+.single-social p {
     font-size: 18px;
     font-weight: 500;
     color: #fff;
@@ -346,44 +362,44 @@ body{
 
 
 
-.discord-img{
+.discord-img {
     height: 35px;
 }
 
-.stack-img{
+.stack-img {
     height: 35px;
 }
 
-.twitter-img{
+.twitter-img {
     height: 35px;
-}   
+}
 
-.github-img{
+.github-img {
     height: 35px;
-}   
+}
 
 
 /* Social and contact end  */
 
 /* Contact start  */
-.contact{
+.contact {
     padding: 20px 0;
     margin-bottom: 50px;
 }
 
-.form-wrapper{
+.form-wrapper {
     background-color: #3B3939;
     padding: 20px;
     border-radius: 25px;
 }
 
-label{
+label {
     font-size: 18px;
     font-weight: 500;
     color: #fff;
 }
 
-input{
+input {
     background-color: transparent;
     border: 0;
     color: #fff;
@@ -391,22 +407,22 @@ input{
     width: 80%;
 }
 
-input:focus{
+input:focus {
     border: 0;
     outline: 0;
 }
 
-.form-control:focus{
+.form-control:focus {
     outline: 0;
     box-shadow: 0 0 0 0;
 }
 
-textarea{
+textarea {
     color: #fff !important;
     resize: none;
-} 
+}
 
-.submit-btn{
+.submit-btn {
     background-color: #201F1F !important;
     width: 120px;
     font-size: 16px !important;

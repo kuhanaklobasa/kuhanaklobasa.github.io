@@ -13,13 +13,6 @@
 
     <title>Shrek | Reviews</title>
   </head>
-  <style>
-    @media only screen and (min-width: 992px)  {
-        html {
-            height: 100vh;
-        }
-    }
-  </style>
   <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -86,10 +79,50 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 col-md-7 col-sm-10">
+              <div class="single-review mx-auto text-center">
+                  <h2><img src="https://img.icons8.com/fluency/48/null/star.png"/><img src="https://img.icons8.com/fluency/48/null/star.png"/><img src="https://img.icons8.com/fluency/48/null/star.png"/><img src="https://img.icons8.com/fluency/48/null/star.png"/><img src="https://img.icons8.com/fluency/48/null/star.png"/></h2>
+                <p class="review-txt">Shrek is a really  brilliant programmer, was able to code my discord bot in no time & provided all required support to get me running. Would recommend him to anyone with a coding challenge.</p>
+                <div class="author-outer">
+                    <img src="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png" alt="" width="37" height="37" class="rounded-5 mb-1 mx-auto">
+                <p class="author">vluyima#7668<br>Id: 885097084078944299</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-10">
+              <div id="long-review" class="single-review mx-auto text-center">
+                  <h2><img src="https://img.icons8.com/fluency/48/null/star.png"/><img src="https://img.icons8.com/fluency/48/null/star.png"/><img src="https://img.icons8.com/fluency/48/null/star.png"/><img src="https://img.icons8.com/fluency/48/null/star.png"/><img src="https://img.icons8.com/fluency/48/null/star.png"/></h2>
+                <p class="review-txt">Shrek is an amazing programmer for commissions. He's patient, making sure to understand the client's needs and vision. He is fun to work with, bringing a positive attitude that makes <span id="dots" onclick="readmore()">... Read more</span> <span id="more" class="more">the creative process enjoyable. He is also efficient, able to get the job done quickly without sacrificing quality. Overall, Shrek's combination of patience, creativity, and efficiency makes him an ideal partner for any project. I have nothing to criticize because my experience was great.</span><span class="less" id="less" onclick="readmore()"> Read less</span>
+                </p>
+                <div class="author-outer">
+                    <img src="https://cdn.discordapp.com/avatars/686304322555871232/235c0adbe3058ff4f3fe8b6e5bd897e1.png?size=160" alt="" width="37" height="37" class="rounded-5 mb-1 mx-auto">
+                <p class="author">BradBH#1077                    
+                    <br>Id: 686304322555871232</p>
+                </div>
+              </div>
+            </div>
         </div>
-        <p class="fs-5 text-center text-white mt-3">Actively updated (23/04/2023)</p>
+        <p class="fs-5 text-center text-white mt-3">Actively updated (4/05/2023)</p>
           <script src="js/popper.min.js"></script>   
     <script src="js/bootstrap.min.js"></script>   
     <script src="js/script.js"></script>   
+    <script>
+        function readmore() {
+            if (document.getElementById("less").style.display == "none" || document.getElementById("less").style.display == "") {
+                document.getElementById("long-review").style.height = "60vh";
+                document.getElementById("dots").style.display = "none";
+                document.getElementById("more").style.display = "inline";
+                document.getElementById("less").style.display = "inline";
+                document.getElementById("long-review").scrollIntoView({block: "start"} );
+            }
+            else {
+                document.getElementById("long-review").style.height = "";
+
+                document.getElementById("dots").style.display = "inline";
+                document.getElementById("more").style.display = "none";
+                document.getElementById("less").style.display = "none";
+            }
+        }
+    </script>
   </body>
 </html>
