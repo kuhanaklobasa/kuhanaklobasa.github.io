@@ -1,301 +1,148 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!--meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@ogreoverlord</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <!--CSS Links-->
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="site-logo">@ogreoverlord</a>
+      <ul class="nav-list">
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#commissions" class="nav-link">Commissions</a></li>
+        <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <title>Shrek | Developer
-    </title>
-  </head>
-  <body>
+  <main class="main-content">
+    <section class="hero-section">
+      <div class="hero-status">
+        <span class="pulse-dot"></span>
+        <span>Available for work</span>
+      </div>
+      <h1 class="hero-title">@ogreoverlord</h1>
+      <p class="hero-copy">
+        (Mainly) <span class="accent-text">backend</span> developer. I build Discord bots, automation scripts, Roblox integrations, and custom web tools. <a href="#contact" class="white">Heard enough already?</a>
+      </p>
+    </section>
+    <section class="section">
+      <p class="section-label">A little bit about me</p>
+      <p>I am an 18 year old developer from Slovenia, Europe.</p>
+      <p>I take pride in my work and prioritize client satisfaction above all else. I work on a "no-bullshit" approach; No proprietary, expensive hosting. Flexible revisions. No uptight communication.</p>
+      <p>I particulary enjoy interesting projects that force me to learn something new or make me solve a problem. If you want a generic moderation discord bot you can probably find a better and cheaper developer for the job.</p>
+    </section>
+    <section id="projects" class="section">
+      <p class="section-label">Some of my projects and commisions</p>
 
-    <!-- header start  -->
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#"> <img src="images/logo.png" width="50px" alt=""> Shrek the dev</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item text-center">
-                <a class="nav-link page"  href="#skill">Skills</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link page"  href="#price">Pricing</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link page"  href="#project">Projects</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link page"  href="/reviews.html">Reviews</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link page"  href="#socials">Contact</a>
-              </li>
-            </ul>
-            
-          </div>
+      <div class="project-row">
+        <div>
+          <span class="proj-title">Google Bot</span>
+          <span class="project-meta"><span class="white">(Legacy)</span> passion project — ~50,000 servers</span>
         </div>
-      </nav>
-    </header>
-    <!-- header end  -->
+        <a href="https://discord.com/oauth2/authorize?client_id=837614958870921236&permissions=517543939137&scope=applications.commands+bot" target="_blank" class="proj-arrow">Bot invite →</a>
+      </div>
+      <div class="project-row">
+        <div>
+          <span class="proj-title">E-currency middleman system</span>
+          <span class="project-meta">Discord bot that manages the exchange of roblox funds</span>
+        </div>
+      </div>
+      <div class="project-row">
+        <div>
+          <span class="proj-title">Roblox in-game reporting integration</span>
+          <span class="project-meta">Sophisticated report notification system featuring quick-ban functionality via Discord</span>
+        </div>
+      </div>
+      <div class="project-row">
+        <div>
+          <span class="proj-title">Discord key-based store-front</span>
+          <span class="project-meta">Bot handled key-generation and displayed stock of items avaialble for purchase</span>
+        </div>
+      </div>
+      <div class="project-row">
+        <div>
+          <span class="proj-title">UGC-item price tracker & sniper</span>
+          <span class="project-meta">Tracks items on the Roblox marketplace and auto-buys when prices hit a target.</span>
+        </div>
+      </div>
+      <div class="project-row">
+        <div>
+          <span class="proj-title">Roblox decal uploader</span>
+          <span class="project-meta">Upload roblox decals & assets via a bot</span>
+        </div>
+      </div>
+      <p class="hero-copy">+ ~100 more</p>
 
-    <!-- banner start  -->
-    <section class="banner">
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-6 col-sm-10 order-md-0 order-1">
-            <h1>Hello! <br>I’m Shrek</h1>
-            <p>Python and web developer.</p>
-          </div>
-          <div class="col-md-6 col-sm-10 order-md-1 order-0">
-            <img src="images/banner.png" class="img-fluid" alt="">
-          </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section-label">What I work with</p>
+      <div class="skill-list">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">C++</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">HTML / CSS</span>
+      </div>
+    </section>
+
+    <section id="commissions" class="section">
+      <p class="section-label">Commissions</p>
+      <div class="commission-grid">
+        <div class="commission-card">
+          <p>What I build</p>
+          <p>
+            Discord bots · Telegram bots · Twitch bots · Roblox group bots · Web scrapers · Automation scripts · Small APIs <br><u>basically anything</u>
+          </p>
+        </div>
+        <div class="commission-card">
+          <p>Pricing</p>
+          <p>
+            upwards of 30$ via PayPal<br>
+          </p>
+        </div>
+        <div class="commission-card">
+          <p>Hosting</p>
+          <p>
+            I can assist you with the full setup on a reliable third-party hosting provider.
+          </p>
+        </div>
+        <div class="commission-card">
+          <p>Duration</p>
+          <p>
+            I am currently a student, therefore i cannot work with impossible deadlines
+          </p>
         </div>
       </div>
     </section>
-    <!-- banner end  -->
 
-    <!-- Feature Projects start  -->
-    <section class="project" id="project">
-      <div class="container">
-        <h1 class="sec-title">Featured projects</h1>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-7 col-sm-10">
-            <div class="single-project mx-auto">
-                <img src="images/gb.png" class="img-fluid w-100 rounded" alt="">
-                <h2>Google Bot</h2>
-              <p>A discord bot i made for fun. It's pretty popular being in ~9500 servers</p>
-              <div class="text-end">
-                <a target="_blank" href="https://google-bot.xyz" class="see-project">See Project</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-7 col-sm-10">
-            <div class="single-project mx-auto">
-            <img src="images/bloxyt.png" class="img-fluid w-100 rounded" alt="">
-              <h2>BloxyTournaments bot</h2>
-              <p>A complex tournament sign up bot that also features automatic bracket creation.</p>
-              <div class="text-end">
-                <a target="_blank" href="https://discord.gg/ynsqRU8sZX" class="see-project">See Project</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-7 col-sm-10">
-            <div class="single-project mx-auto">
-                    <img src="images/AAOF.png" class="img-fluid w-100 rounded" alt="">
-                <h2>AAOF Management</h2>
-              <p>A fairly simple bot communicating with a roblox game. Used for tracking, removing and adding points</p>
-              <div class="text-end">
-                <a target="_blank" href="https://discord.gg/bc72FJavkZ" class="see-project">See Project</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+    <section id="contact" class="section">
+      <p class="section-label">Contact</p>
+      <div class="contact-actions">
+        <button onclick="copyDiscord()" id="discord-btn" class="contact-link">Discord — @ogreoverlord</button>
+        <a href="https://twitter.com/DeveloperShrek" target="_blank" class="contact-link">Twitter</a>
+        <a href="https://stackoverflow.com/users/15343581/hamsterrecords" target="_blank" class="contact-link">Stack Overflow</a>
+        <a href="https://github.com/kuhanaklobasa" target="_blank" class="contact-link">GitHub</a>
       </div>
     </section>
-    <!-- Feature Projects end  -->
+  </main>
 
-    <!-- Skill start  -->
-    <section class="skill" id="skill">
-      <div class="container">
-        <h1 class="sec-title">Skills</h1>
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-text">Frontend isn't my field. I used AI for the site, sue me.</span>
+      <a href="reviews.html" class="nav-link">Reviews →</a>
+    </div>
+  </footer>
 
-        <div class="row">
-          <div class="col-lg-3 col-sm-6">
-            <div class="single-skill text-center">
-              <img src="images/python.png" width="80px" alt="">
-              <h2>Python</h2>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-              </div>
-              <p>Expert</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="single-skill text-center">
-              <img src="images/html.png" width="63.5px" alt="">
-              <h2>HTML</h2>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-              </div>
-              <p>Proficient</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="single-skill text-center">
-              <img src="images/css.png" width="65px" alt="">
-              <h2>CSS</h2>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-              </div>
-              <p>Proficient</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="single-skill text-center">
-              <img src="images/js.png" width="86px" alt="">
-              <h2>Javascript</h2>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-              </div>
-              <p>Proficient</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- Skill end  -->
-
-
-    <!-- Commission start  -->
-    <section class="commission" id="price">
-      <div class="container">
-        <h1 class="sec-title">Commission's</h1>
-
-        <div class="row">
-          <div class="col">
-            <div class="single-commission">
-              <h2>> <span>What</span> do I make?</h2>
-              <p>I specialise in <span>discord bots</span> but aside from that i can also make <b>apis, telegram bots, twitch bots, different scripts, roblox group bots</b>...</p>
-            </div>
-
-            <div class="single-commission mt-5">
-              <h2>> What <span>payment types</span> do I accept?</h2>
-              <p>Paypal, nitro, occasionally robux</p>
-            </div>
-
-            <div class="single-commission mt-5">
-              <h2>> <span>How much</span> do I charge?</h2>
-              <p>2k-∞ robux <br>
-                20-300$ PayPal (or same value in nitro)</p>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- Commission end  -->
-
-    <!-- Social and contact start  -->
-    <section class="social" id="socials">
-      <div class="container">
-        <h1 class="sec-title">Socials and contact</h1>
-
-        <div class="row">
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-social mx-auto">
-                <div class="row align-items-center" style="cursor: pointer;">
-                  <div class="col-xl-2 col-lg-2 col-12 mx-auto" style="padding:0;width: fit-content"><img src="images/discord.png"  class="img-fluid discord-img" alt=""></div>
-                  <div class="col-xl-10 col-lg-10 col-12">
-                    <p class="mb-0 discord-user" id="discord" onclick="copy()">Official Shrek God#7197</p>
-                  </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-social mx-auto">
-              <a href="https://stackoverflow.com/users/15343581/hamsterrecords">
-                <div class="row align-items-center">
-                  <div class="col-xl-3 col-lg-3 col-12"><img src="images/stack.png"  class="img-fluid stack-img" alt=""></div>
-                  <div class="col-xl-9 col-lg-9 col-12">
-                    <p class="mb-0">Stackoverflow</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-social mx-auto">
-              <a href="https://twitter.com/DeveloperShrek">
-                <div class="row align-items-center">
-                  <div class="col-xl-3 col-lg-3 col-12"><img src="images/twitter.png"  class="img-fluid twitter-img" alt=""></div>
-                  <div class="col-xl-9 col-lg-9 col-12">
-                    <p class="mb-0">Twitter</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-social mx-auto">
-              <a href="https://github.com/kuhanaklobasa">
-                <div class="row align-items-center">
-                  <div class="col-xl-3 col-lg-3 col-12"><img src="images/github.png" class="img-fluid github-img" alt=""></div>
-                  <div class="col-xl-9 col-lg-9 col-12">
-                    <p class="mb-0">Github</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-        </div>
-
-      </div>
-    </section>
-    <script>
-        function copy() {
-            // Get the text field
-            var copyText = document.getElementById("discord");
-          
-            // Select the text field
-          
-             // Copy the text inside the text field
-            navigator.clipboard.writeText(copyText.textContent);
-
-            const txt = copyText.textContent
-            copyText.textContent = "Copied"
-            setTimeout(function () {copyText.textContent = txt}, 1000)
-        }          
-    </script>
-    <!-- Social and contact end  -->
-
-    <!-- Contact section start  -->
-
-    <!-- <section class="contact" id="contact">
-      <div class="container">
-       <div class="row justify-content-center">
-        <div class="col-xl-8 col-lg-9 col-md-11 col-12">
-          <div class="form-wrapper">
-            <form action="" method="get">
-              <label for="">Email : </label>
-              <input type="email" name="email"> <br>
-              <label for="">Message : </label>
-              <textarea name="message" class="form-control bg-transparent border-0" name="" id="" cols="30" rows="7"></textarea>
-              <div class="submit-btn-wrapper text-end">
-                <input type="submit" class="btn submit-btn" value="Submit">
-              </div>
-            </form>
-          </div>
-        </div>
-       </div>
-      </div>
-    </section> -->
-
-    <!-- Contact section end  -->
-    
-    <!--JS -->
-    <script src="js/popper.min.js"></script>   
-    <script src="js/bootstrap.min.js"></script>   
-    <script src="js/script.js"></script>   
-   
-  </body>
+  <script src="scripts.js"></script>
+</body>
 </html>
